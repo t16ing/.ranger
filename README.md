@@ -73,8 +73,9 @@ move between files and folders:
 | m`<letter>`  | Mark.                         |
 | '`<letter>`  | Go to mark.                   |
 | um`<letter>` | Delete mark.                  |
-| v            | Mark all files.               |
-| uv           | Unmark all.                   |
+| v            | Toggle all files.             |
+| uv           | Un-toggle all.                |
+| `<space>`    | Toggle single file.           |
 | zf           | Filter displayed filename.    |
 | f            | Quick filter as you type.     |
 | F            | `fzf` integration.            |
@@ -92,7 +93,7 @@ misc:
 
 | Key | Actions                       |
 |-----|-------------------------------|
-| S   | Open shell in current folder. |
+| T   | Open shell in current folder. |
 | X   | Quick edit configuration.     |
 | C   | Compress to zip file.         |
 | pC  | Extract yanked zip to here.   |
