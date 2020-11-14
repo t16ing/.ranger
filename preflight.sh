@@ -20,4 +20,4 @@ curl https://raw.githubusercontent.com/RougarouTheme/ranger/master/rougarou.py -
 curl https://raw.githubusercontent.com/ranger/colorschemes/master/zenburn.py -o zenburn.py
 
 # install the ranger
-pip install ranger-fm
+pip3 install ranger-fm
