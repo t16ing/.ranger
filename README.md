@@ -1,7 +1,7 @@
 .ranger
 ===
 
-This is my personal Ranger configurations located at `~/.config/ranger`.
+This is my personal Ranger configuration, which is located at `~/.config/ranger`.
 
 <!-- vim-markdown-toc GFM -->
 
@@ -15,27 +15,31 @@ This is my personal Ranger configurations located at `~/.config/ranger`.
 
 ## Sensible Configurations
 
-- vcs aware by default
-- preflight dependencies (for Ubuntu distro)
+- `vcs` aware by default
+- preflight script to install dependencies (for Ubuntu distro)
 - colorscheme: default
 - preview image as asciiart
 - plugins: autojump, devicons
 
 ## Screenshots
 
-- How image preview looks like
+- How the configurations, colorscheme, and plugin devicons looks like:
+
+    <img src="https://i.imgur.com/phncqun.png" alt="drawing" width="480"/>
+
+- How image preview looks like:
 
     <img src="https://i.imgur.com/wWp8vp6.png" alt="drawing" width="480"/>
 
 ## How to install
 
-1. Download to your ranger configure folder.
+1. Download this repo to your ranger configure folder.
 
 ```
 $ git clone https://github.com/t16ing/.ranger ~/.config/ranger
 ```
 
-2. Execute the preflight.sh to install ranger and dependencies.
+2. Execute the `preflight.sh` to install dependencies and install ranger.
 
 ```
 $ cd ~/.config/rander
@@ -50,19 +54,21 @@ $ ranger
 
 ## Key Bindings
 
-file operation:
+File and folder management:
 
-| Key     | Actions                    |
-|---------|----------------------------|
-| cw      | Single or bulk rename.     |
-| dD      | Delete files or folders.   |
-| DD      | Delete to trashcan.        |
-| uD      | Undo delete from trashcan. |
-| Dl      | List trashcan.             |
-| `<c-n>` | New file.                  |
-| M       | New folder and cd into.    |
+| Key     | Actions                     |
+|---------|-----------------------------|
+| cw      | Single or bulk rename.      |
+| dD      | Delete files or folders.    |
+| DD      | Delete to trashcan.         |
+| uD      | Undo delete from trashcan.  |
+| Dl      | List trashcan.              |
+| `<c-n>` | New file.                   |
+| M       | New folder and cd into.     |
+| C       | Compress to zip file.       |
+| pC      | Extract yanked zip to here. |
 
-move between files and folders:
+File and folder navigation:
 
 | Key          | Actions                       |
 |--------------|-------------------------------|
@@ -80,23 +86,21 @@ move between files and folders:
 | f            | Quick filter as you type.     |
 | F            | `fzf` integration.            |
 
-tab:
+Tab navigation:
 
 | Key   | Actions               |
 |-------|-----------------------|
 | q     | Close a tab.          |
 | gt    | New tab.              |
-| gn,gp | Next or previous tab. |
+| gj,gk | Next or previous tab. |
 | g1~9  | Go to tab n.          |
 
-misc:
+Misc:
 
 | Key | Actions                       |
 |-----|-------------------------------|
 | T   | Open shell in current folder. |
 | X   | Quick edit configuration.     |
-| C   | Compress to zip file.         |
-| pC  | Extract yanked zip to here.   |
 
 ## Licence
 
