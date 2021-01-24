@@ -1,7 +1,7 @@
 .ranger
 ===
 
-This is my personal Ranger configuration, which is located at `~/.config/ranger`.
+My personal Ranger configuration located at `~/.config/ranger`.
 
 <!-- vim-markdown-toc GFM -->
 
